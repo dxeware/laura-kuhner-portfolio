@@ -1,0 +1,161 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('https://download.unsplash.com/8/berries.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    margin-left: -1.5em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    color: black;
+    font-weight: bolder;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: darkgreen;
+    text-shadow: 3px 3px 3px grey, 3px 3px 5px grey;
+}
+
+.content-footer >p,
+.introduction-section,
+.location-section,
+.questions-section,
+.projects-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+    padding: 0.5em;
+}
+.content-footer > p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: yellowgreen;
+  padding: 0.2em 0 1em 0;
+  margin: 3em 0 0 0;
+}
+
+/* Navigation Section */
+.top-navigation {
+  background-color: #F5F5F5;
+  /*position: fixed;*/
+  width: 100%;
+  z-index: 9999;
+}
+
+.top-navigation > .content {
+  width: 940px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.top-navigation .links {
+  float: right;
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 1.5em;
+  color: black;
+  letter-spacing: 0.03em;
+  margin-top: 25px;
+  font-weight: 450;
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+
+.top-navigation .links > .active {
+    /* color: #4c5058; */
+    font-weight: 800;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+hr {
+     margin-top: 3em;
+     max-width: 38em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.content > img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer > p {
+        padding: 1em;
+  }
+}
